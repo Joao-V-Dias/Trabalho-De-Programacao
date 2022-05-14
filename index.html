@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #191924;
+            width: 100%;
+            height: 60px;
+            justify-content: space-between;
+            display: flex;
+            align-items: center;
+        }
+
+        #logo {
+            width: 50px;
+            height: 50px;
+            margin: 5px;
+        }
+
+        .list_menu {
+            list-style: none;
+            margin: 3px 10px;
+            display: inline;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 20px;
+            color: #fff;
+        }
+
+        body {
+            background-image: url(./img/vingadores_endgame_fotos_hd_2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: #1c1c28;
+            position: relative;
+        }
+
+        #gradiante {
+            position: absolute;
+            background-image: linear-gradient(0deg, #1c1c28, 45%, transparent);
+            width: 100%;
+            height: 400px;
+            top: 175px;
+        }
+
+        #sinopse {
+            width: 1150px;
+            height: 200px;
+            position: absolute;
+            top: 400px;
+            margin: 20px;
+            color: rgb(223, 223, 223);
+            padding: 30px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-shadow: 2px 2px 2px black;
+        }
+
+        #informacoes {
+            width: 1000px;
+            height: 400px;
+            position: absolute;
+            top: 650px;
+            margin: 20px;
+            color: rgb(223, 223, 223);
+            padding: 30px;
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            color: #fff;
+            position: absolute;
+            left: 50px;
+            top: 300px;
+            font-size: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-shadow: 3px 3px 2px black;
+        }
+
+        td {
+            padding: 8px;
+        }
+
+        hr {
+            margin: 10px 0;
+            width: 1200px;
+            height: 2px;
+            background-color: rgb(172, 172, 172);
+        }
+
+        h4 {
+            color: #fff;
+            font-size: 30px;
+        }
+
+        li {
+            list-style: none;
+            margin: 3px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="./img/logo.png" alt="logo do site" id="logo"></a>
+        <ul>
+            <li class="list_menu"><a href="principais_atores.html">PRINCIPAIS ATORES</a></li>
+            <li class="list_menu"><a href="contatar_equipe.html">CONTATAR EQUIPE</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <div id="conteudo">
+            <div id="gradiante"></div>
+
+            <h1>Vingadores: Ultimato</h1>
+
+            <div id="sinopse">
+                <h4>Sinopse</h4>
+                <hr>
+                <p>Vingadores: Ultimato mostra o fim da luta dos heróis contra Thanos, o titã louco. Após utilizar a
+                    manopla do infinito, Thanos dizimou metade dos seres vivos do universo, agora, ainda sofrendo com a
+                    perda os Vingadores devem se recompor e criar um plano para derrotar e o vilão e desfazer todo o
+                    caos.</p>
+            </div>
+
+            <div id="informacoes">
+
+                <h4>Informações</h4>
+                <hr>
+                <table>
+                    <tr>
+                        <td>DIRETORES:</td>
+                        <td>Joe Russo e Anthony Russo, irmãos, são os responsáveis pela criação e direção de Vingadores
+                            Ultimato ao lado de uma grande equipe. Ambos nasceram em Cleveland, EUA, e também começaram
+                            a carreira como diretores de videoclipes ao lado do outro. São graduados em cinema na
+                            Universidade de Iowa e atualmente trabalham em outros filmes em sua direção.</td>
+                    </tr>
+
+                    <tr>
+                        <td>ANO DE LANÇAMENTO:</td>
+                        <td>25 de abril de 2019</td>
+                    </tr>
+
+                    <tr>
+                        <td>CLASSIFICAÇÃO INDICATIVA:</td>
+                        <td>+12</td>
+                    </tr>
+                    <tr>
+                        <td>DURAÇÃO:</td>
+                        <td>181 minutos</td>
+                    </tr>
+                    <td>PREMIAÇÕES:</td>
+                    <td>
+                        <ul>
+                            <li>People's Choice Award: Filme Favorito</li>
+                            <li>Melhor Elenco de Dublês em Filme</li>
+                            <li>Critic’s choice Movie Award: Melhor filme de ação</li>
+                            <li>Nickelodeon Kids' Choice Award: Filme Favorito</li>
+                            <li>Bandung Film Festival For Imported Film</li>
+                            <li>MTV Movie Award: Melhor Filme</li>
+                            <li>ADG Award de Melhor Design em Filme de Fantasia</li>
+                            <li>People's Choice Award: Filme de Ação Favorito</li>
+                            <li>Critics' Choice Award: Melhores Efeitos Visuais</li>
+                        </ul>
+                    </td>
+                </table>
+            </div>
+    </main>
+</body>
+
+</html>

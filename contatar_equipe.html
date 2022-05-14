@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*cabecalho*/
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #191924;
+            width: 100%;
+            height: 60px;
+            display: flex;
+            align-items: center;
+        }
+
+        #logo {
+            width: 50px;
+            height: 50px;
+            margin: 5px;
+        }
+
+        /*fim_cabecalho*/
+
+        body {
+            background-color: #1c1c28;
+        }
+
+        #externa {
+            margin: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            color: #fff;
+            font-size: 40px;
+            margin: 5px 0;
+        }
+
+        h2 {
+            color: #fff;
+            font-size: 30px;
+            margin: 10px 0;
+        }
+
+        h3 {
+            color: #fff;
+            font-size: 25px;
+            margin: 5px 0;
+        }
+
+        label {
+            color: rgb(223, 223, 223);
+            font-size: 20px;
+            margin: 6px 4px;
+        }
+
+        hr {
+            margin: 15px 0;
+            height: 2px;
+            background-color: rgb(172, 172, 172);
+        }
+
+        input {
+            background: none;
+            height: 20px;
+            border: 1px #fff solid;
+            height: 25px;
+            font-size: 15px;
+        }
+
+        .form_margin {
+            margin: 15px 0;
+        }
+
+        button {
+            background-color: rgb(175, 175, 175);
+            border: 1px;
+            width: 160px;
+            height: 55px;
+            cursor: pointer;
+            font-size: 15px;
+        }
+
+        button:hover {
+            background-color: rgb(70, 70, 70);
+            color: #fff;
+            font-size: 18px;
+        }
+
+        .div1 {
+            display: flex;
+        }
+
+        footer{
+            margin: 20px;
+        }
+
+        .div2 {
+            text-align: center;
+            margin: 45px 45px;
+            padding: 20px;
+            width: 48%;
+        }
+
+        .alunos {
+            width: 220px;
+            height: 220px;
+        }
+
+        p {
+            color: #fff;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="./img/logo.png" alt="logo do site" id="logo"></a>
+    </header>
+
+    <div id="externa">
+
+        <h1>Formulário para contatar nossa equipe:</h1>
+        <hr>
+        <h2>Envie seus dados e o contataremos o mais rápido possível</h2>
+        <form action="XXXXXX" method="post" target="_self">
+            <h3>Dados Pessoais</h3>
+            <div class="form_margin">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" placeholder="Insira o Nome" required />
+            </div>
+
+            <div class="form_margin">
+                <label for="nome">Data Nascimento</label>
+                <input type="date" id="datanasc" name="datanasc" />
+            </div>
+
+            <div class="form_margin">
+                <h3>Gênero</h3>
+                <input type="radio" id="inf" name="curso" value="masculino" />
+                <label for="nome">Masculino</label><br />
+
+                <input type="radio" id="adm" name="curso" value="feminino" />
+                <label for="nome">Feminino</label><br />
+            </div>
+
+            <div class="form_margin">
+                <label for="email">E-mail:</label>
+                <input type="text" id="email" name="email" placeholder="Insira o E-mail" required />
+            </div>
+
+            <div class="form_margin">
+                <label for="obs">
+                    <h3>Observações</h3>
+                </label><br />
+                <textarea name="obs" id="observacao" cols="60" rows="10"
+                    placeholder="Deixe o que lhe fizer feliz! (Sugestões, ideias)"></textarea>
+            </div>
+
+            <div>
+                <button type="submit" name="envio">Enviar</button>
+            </div>
+
+            <hr>
+        </form>
+    </div>
+
+    <footer>
+        <h2>Equipe</h2>
+        <div class="div1">
+            <div class="div2">
+                <img src="./img/equipe/Jão.jpg" alt="Foto do Jão" class="alunos">
+                <h2>João Paulo</h2>
+                <p>
+                    Amante de aventuras,
+                    tocador de instrumentos e entusiasta em batata doce.
+                </p>
+            </div>
+
+            <div class="div2">
+                <img src="./img/equipe" alt="Foto do Geraldo" class="alunos">
+                <h2>Geraldão</h2>
+                <p>Nosso Neo, amante de boné para trás.</p>
+
+            </div>
+        </div>
+
+        <div class="div1">
+
+            <div class="div2">
+                <img src="./img/equipe" alt="Foto do João" class="alunos">
+                <h2>João Victor</h2>
+                <p>Brabissimo no basquete.</p>
+
+            </div>
+
+            <div class="div2">
+                <img src="./img/equipe/Isa.jpg" alt="Foto da Isadora" class="alunos">
+                <h2>Isadora</h2>
+                <p>Recem-apaixonada em filosofia. </p>
+
+            </div>
+
+            <div class="div2">
+                <img src="./img/equipe/Flah.jpg" alt="Foto da Flavia" class="alunos">
+                <h2>Flavinha</h2>
+                <p>Ama animes, mangás e fics nas horas vagas.</p>
+
+            </div>
+    </footer>
+    </div>
+</body>
+
+</html>
