@@ -1,0 +1,183 @@
+@media screen and (max-width: 375px) {
+
+    #index {
+        background-image: url(./img/background_res.png);
+    }
+
+    #sinopse {
+        width: 95%;
+        height: auto;
+        font-size: 15px;
+        margin: 1%;
+        padding: 2%;
+    }
+
+    #informacoes {
+        width: 95%;
+        font-size: 10px;
+        margin: 1%;
+        padding: 2%;
+        top: 900px;
+    }
+
+    #title {
+        width: 95%;
+        height: 300px;
+        text-align: center;
+        position: static;
+    }
+
+    h1 {
+        font-size: 30px;
+        margin: 1%;
+        padding: 2%;
+        left: 2%;
+        position: relative;
+        top: 60%;
+    }
+
+    hr {
+        width: 90%;
+    }
+
+    .ator {
+        text-align: center;
+        margin: 2%;
+        padding: 2%;
+        width: 95%;
+    }
+
+    .atores {
+        display: block;
+    }
+
+    .div1 {
+        display: block;
+    }
+
+    .div2 {
+        margin: 10%;
+        padding: 2%;
+        width: 70%;
+    }
+}
+
+
+@media screen and (max-width: 390px) {
+
+    #index {
+        background-image: url(./img/background_res.png);
+        position: static;
+    }
+
+
+    #sinopse {
+        width: 95%;
+        height: auto;
+        font-size: 19px;
+        margin: 1%;
+        padding: 2%;
+    }
+
+    #informacoes {
+        width: 95%;
+        font-size: 13px;
+        margin: 1%;
+        padding: 2%;
+        top: 80%;
+    }
+
+    #title {
+        width: 95%;
+        height: 300px;
+        text-align: center;
+        position: static;
+    }
+
+    h1 {
+        font-size: 33px;
+        margin: 1%;
+        padding: 2%;
+        left: 2%;
+        position: relative;
+        top: 60%;
+    }
+
+    hr {
+        width: 90%;
+    }
+
+    .ator {
+        text-align: center;
+        margin: 2%;
+        padding: 2%;
+        width: 95%;
+    }
+
+    .atores {
+        display: block;
+    }
+
+    .div1 {
+        display: block;
+    }
+
+    .div2 {
+        margin: 10%;
+        padding: 2%;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 414px) {
+
+    #index {
+        background-image: url(./img/background_res.png);
+    }
+
+    #sinopse {
+        width: 95%;
+        font-size: 20px;
+        margin: 1%;
+        padding: 2%;
+    }
+
+    #informacoes {
+        width: 95%;
+        font-size: 15px;
+        margin: 1%;
+        padding: 2%;
+    }
+
+    h1 {
+        font-size: 36px;
+        margin: 1%;
+        padding: 2%;
+        left: 2%;
+    }
+
+    hr {
+        width: 95%;
+    }
+
+    .ator {
+        text-align: center;
+        margin: 2%;
+        padding: 2%;
+        width: 95%;
+    }
+
+    .atores {
+        display: block;
+    }
+
+    .div1 {
+        display: block;
+    }
+
+    .div2 {
+        margin: 10%;
+        padding: 2%;
+        width: 70%;
+    }
+}

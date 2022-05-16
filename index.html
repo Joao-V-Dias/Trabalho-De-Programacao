@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Vingadores: Ultimato</title>
+    <link rel="stylesheet" href="responsividade.css">
     <style>
         * {
             margin: 0;
@@ -40,19 +41,11 @@
         }
 
         body {
-            background-image: url(./img/vingadores_endgame_fotos_hd_2.jpg);
+            background-image: url(./img/background.png);
             background-repeat: no-repeat;
             background-size: cover;
             background-color: #1c1c28;
             position: relative;
-        }
-
-        #gradiante {
-            position: absolute;
-            background-image: linear-gradient(0deg, #1c1c28, 45%, transparent);
-            width: 100%;
-            height: 400px;
-            top: 175px;
         }
 
         #sinopse {
@@ -113,7 +106,7 @@
     </style>
 </head>
 
-<body>
+<body id="index">
     <header>
         <a href="index.html"><img src="./img/logo.png" alt="logo do site" id="logo"></a>
         <ul>
@@ -124,9 +117,10 @@
 
     <main>
         <div id="conteudo">
-            <div id="gradiante"></div>
 
-            <h1>Vingadores: Ultimato</h1>
+            <div id="title">
+                <h1>Vingadores: Ultimato</h1>
+            </div>
 
             <div id="sinopse">
                 <h4>Sinopse</h4>
