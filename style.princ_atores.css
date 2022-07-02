@@ -1,0 +1,54 @@
+*{
+    text-align: center;
+}
+
+.ator {
+    margin: 3.29vw auto;
+    width: 45vw;
+}
+
+.img_ator {
+    width: 17vw;
+    height: 17vw;
+    border-radius: 1vw;
+}
+
+.atores {
+    display: flex;
+}
+
+h4 {
+    font-size: 2.19vw;
+
+    color: white;
+}
+
+p {
+    font-size: 1.09vw;
+
+    color: white;
+}
+
+h1{
+    font-size: 4vw;
+    color: #fff;
+    padding: 2vw ;
+}
+
+@media (max-width: 700px) {
+    .atores{
+        display: block;
+    }
+
+    p{
+        font-size: 2vw;
+    }
+
+    h4{
+        font-size: 3vw;
+    }
+
+    h1{
+        font-size: 5vw;
+    }
+}

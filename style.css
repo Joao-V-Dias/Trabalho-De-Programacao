@@ -1,0 +1,43 @@
+h1 {
+    color: #fff;
+    font-size: 4vw;
+    text-shadow: 0.14vw 0.14vw 0.14vw black;
+    padding: 15vw 0 2vw 2vw;
+}
+
+hr {
+    margin: 2vw;
+}
+
+main {
+    background-image: url(./img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    padding: 1vw;
+    color: rgb(173, 173, 173);
+}
+
+h4 {
+    font-size: 2vw;
+    color: rgb(221, 221, 221);
+    padding: 0.5vw 2vw;
+}
+
+p {
+    font-size: 1.8vw;
+    padding: 0 2vw;
+}
+
+table {
+    padding: 0 2vw;
+}
+
+td {
+    padding: 0.8vw;
+}
+
+li {
+    list-style: none;
+    padding: 0.3vw;
+}
