@@ -40,6 +40,10 @@ body {
 
 @media (max-width:700px){
     a{
-        font-size: 2vw;
+        font-size: 3vw;
+    }
+    #logo{
+        width: 4vw;
+        height: 4vw;
     }
 }
